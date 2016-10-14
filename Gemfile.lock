@@ -51,6 +51,9 @@ GEM
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
     builder (3.2.2)
+    bullet (5.0.0)
+      activesupport (>= 3.0.0)
+      uniform_notifier (~> 1.9.0)
     cancancan (1.15.0)
     carrierwave (1.0.0.beta)
       activemodel (>= 4.0.0)
@@ -192,6 +195,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.0.2)
       execjs (>= 0.3.0, < 3)
+    uniform_notifier (1.9.0)
     warden (1.2.6)
       rack (>= 1.0)
     web-console (3.3.1)
@@ -210,6 +214,7 @@ DEPENDENCIES
   bootstrap-datepicker-rails
   bootstrap-kaminari-views
   bootstrap-sass
+  bullet
   cancancan (~> 1.10)
   carrierwave (>= 1.0.0.beta, < 2.0)
   ckeditor
