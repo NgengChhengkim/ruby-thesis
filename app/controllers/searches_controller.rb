@@ -13,4 +13,8 @@ class SearchesController < ApplicationController
       format.html
     end
   end
+
+  def jobs
+    @users = User.all
+  end
 end

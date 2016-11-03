@@ -29,4 +29,5 @@ Rails.application.routes.draw do
   resources :conversations, only: [:index, :show, :create]
   resources :messages, only: [:create]
   get "searches/users"
+  get "searches/jobs"
 end
